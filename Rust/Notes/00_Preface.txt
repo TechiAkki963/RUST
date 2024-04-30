@@ -1,0 +1,11 @@
+PREFACE
+
+Phase #1
+In Rust, if your program compiles, it probably works
+
+
+Phase #2
+You can't segfault if you don't have NUll
+
+Phase #3
+RUST does'nt hide complexity from the developers it offers them the right tools to manage all the complexity.

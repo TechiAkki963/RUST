@@ -1,0 +1,14 @@
+
+INITIALIZE a RUST Project
+
+mkdir rust-project
+cd rust-project
+cargo init
+
+
+COMPILE a file
+rustc main.rs
+
+and to RUN a file in terminal
+cargo run
+
