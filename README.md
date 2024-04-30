@@ -1,0 +1,2 @@
+# RUST
+my rust learning
