@@ -1,9 +1,0 @@
-
-*SIMPLE variable in RUST
-
-NUMBERS
-
-fn main(){
-	let x: i32 = 1;
-	println!("{}",x);
-}
