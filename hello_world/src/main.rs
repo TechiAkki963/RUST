@@ -1,3 +1,5 @@
+type Meters = i32;
+
 const TAX_PERCENTAGE:i8 = 10;
 
 fn main() {
@@ -66,6 +68,11 @@ fn main() {
     let current_salary = 1000;
     println!("Candidates current salaty:{current_salary}, so he has to {TAX_PERCENTAGE} as tax");
 
-    
+
+    // Type Alias
+    // Type Alias is decalred outside the fn main as it can be in any file level
+
+    let length_of_track: Meters= 1600;  
+    println!("The length of the track {} meters",length_of_track);
 
 }
