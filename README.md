@@ -78,3 +78,7 @@ cargo run
 ```
 cargo check
 ```
+
+# Constants
+
+The advantage of const is it can be use in any file level / scope
