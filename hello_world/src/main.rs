@@ -1,3 +1,5 @@
+#![allow(unused_variables)]
+
 type Meters = i32;
 
 const TAX_PERCENTAGE:i8 = 10;
@@ -65,14 +67,29 @@ fn main() {
     // *CONSTANTS | const
     
     // TAX_RATE is declared outside the fn main as it can be used in any file level / scope
+    // const Naming convention , All the letters should always be Capital
     let current_salary = 1000;
     println!("Candidates current salaty:{current_salary}, so he has to {TAX_PERCENTAGE} as tax");
 
 
-    // Type Alias
+    // *Type Alias
     // Type Alias is decalred outside the fn main as it can be in any file level
+    // Type Alias Naming convention , the first word should always be Capital
 
+    // let length_of_track:i32 = 1600;
     let length_of_track: Meters= 1600;  
     println!("The length of the track {} meters",length_of_track);
+
+    // *Compiler Directives
+
+    // Compiler Directives is an annotation that tells the compiler how to parse the source sode
+    // Compiler Directive can be applied to a line , a function or entire files
+    // if applying to entire use "!"  #![allow(unused_variables)]
+
+    // #[allow(unused_variables)]
+    let number_of_mangoes = 24;
+
+    // #[allow(unused_variables)]
+    let number_of_bananas = 12;
 
 }
