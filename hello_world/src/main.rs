@@ -54,7 +54,7 @@ fn main() {
         let price_of_tea=100;
         println!("You have to pay Rs.{} for this Tea(inner)",price_of_tea);
         println!("You have to pay Rs.{} for this coffee",price_of_coffee);
-
+ 
         let price_of_coffee= 75;
         println!("You have to pay Rs.{} for the coffee", price_of_coffee);
         // This syntax does is creates a sepearte independant coffee variable within this scope
