@@ -47,4 +47,19 @@ fn main() {
     println!("{}", value.pow(2));
 
     println!("{}", value.pow(3));
+
+    // * floating Point
+
+    let pi: f64 = 3.14159;
+    println!("The value of pi {}",pi); 
+
+    println!("{}",pi.floor());  //3
+    println!("{}",pi.ceil());   //4
+    println!("{}",pi.round());
+
+    // * float format specifier
+
+    println!("The current value of pi is {pi:.2}"); //3.14 
+
+    // * Casting type with "as" keyword
 }
