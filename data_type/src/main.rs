@@ -102,7 +102,7 @@ fn main() {
     year += 1;
     println!("increment : {}", year);
 
-    year -= 2; 
+    year -= 2;
     println!("decrement : {}", year);
 
     year *= 3;
@@ -116,21 +116,60 @@ fn main() {
     let is_handsome = true;
     let is_bodybuilder = false;
 
-    println!("You are handsome: {} and also Bodybuilder: {}", is_handsome,is_bodybuilder);
+    println!(
+        "You are handsome: {} and also Bodybuilder: {}",
+        is_handsome, is_bodybuilder
+    );
 
     let age: i32 = 21;
     let is_mature = age > 18;
     println!("{is_mature}");
     println!(" Is eleigible to drive : {}", is_mature);
-    println!("Method Positive : {} Method Negative : {}",age.is_negative(),age.is_positive());
+    println!(
+        "Method Positive : {} Method Negative : {}",
+        age.is_negative(),
+        age.is_positive()
+    );
 
     // * Boolean Inversion
     let can_see_r_rated_movie = age >= 17;
-    let cannot_see_r_rated_movie =  !can_see_r_rated_movie;
-    println!("Your age {}, Eligibility to watch R rated movie : {}", age,can_see_r_rated_movie);
+    #[allow(unused_variables)]
+    let cannot_see_r_rated_movie = !can_see_r_rated_movie;
+    println!(
+        "Your age {}, Eligibility to watch R rated movie : {}",
+        age, can_see_r_rated_movie
+    );
 
     // *Equality and Inequality
+
+    println!("{}", "Coke" == "Pepsi");
+    println!("{}", "Coke" != "Pepsi");
+    println!("{}", "Coke" == "coke");
+    println!("{}", "Coke" == "Coke ");
+    println!("{}", "Coke" == "Coke");
+
+    println!("{}", 13 == 13);
+    println!("{}", 13 != 13);
+
+    println!("{}", 26.1 == 26.1);
+    println!("{}", 26.1 == 26.14);
+
+    println!("{}", 13 == 13.0 as i32);
+
+    println!("{}", true == true);
+    println!("{}", false == false);
+    println!("{}", true != false);
+
+    //  And && operator
+    let purchased_ticket = true;
+    let plane_on_time = true;
+    let making_event = purchased_ticket && plane_on_time;
+    println!("It is {} that I will arrive as expected",making_event);
     
 
-
+    // OR || operator
+    let user_has_paid_for_subscription = false;
+    let is_admin= true;
+    let user_can_see_premium_content = user_has_paid_for_subscription || is_admin;
+    println!("Can this user view our content? : {}",user_can_see_premium_content);
 }

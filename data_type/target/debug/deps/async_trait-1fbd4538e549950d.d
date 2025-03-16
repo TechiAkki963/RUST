@@ -1,0 +1,12 @@
+/home/jarvis/Desktop/RUST/data_type/target/debug/deps/libasync_trait-1fbd4538e549950d.so: /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-trait-0.1.88/src/lib.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-trait-0.1.88/src/args.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-trait-0.1.88/src/bound.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-trait-0.1.88/src/expand.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-trait-0.1.88/src/lifetime.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-trait-0.1.88/src/parse.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-trait-0.1.88/src/receiver.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-trait-0.1.88/src/verbatim.rs
+
+/home/jarvis/Desktop/RUST/data_type/target/debug/deps/async_trait-1fbd4538e549950d.d: /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-trait-0.1.88/src/lib.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-trait-0.1.88/src/args.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-trait-0.1.88/src/bound.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-trait-0.1.88/src/expand.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-trait-0.1.88/src/lifetime.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-trait-0.1.88/src/parse.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-trait-0.1.88/src/receiver.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-trait-0.1.88/src/verbatim.rs
+
+/home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-trait-0.1.88/src/lib.rs:
+/home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-trait-0.1.88/src/args.rs:
+/home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-trait-0.1.88/src/bound.rs:
+/home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-trait-0.1.88/src/expand.rs:
+/home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-trait-0.1.88/src/lifetime.rs:
+/home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-trait-0.1.88/src/parse.rs:
+/home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-trait-0.1.88/src/receiver.rs:
+/home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-trait-0.1.88/src/verbatim.rs:

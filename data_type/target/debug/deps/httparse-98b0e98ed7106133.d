@@ -1,0 +1,12 @@
+/home/jarvis/Desktop/RUST/data_type/target/debug/deps/libhttparse-98b0e98ed7106133.rmeta: /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.10.1/src/lib.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.10.1/src/iter.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.10.1/src/macros.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.10.1/src/simd/mod.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.10.1/src/simd/swar.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.10.1/src/simd/sse42.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.10.1/src/simd/avx2.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.10.1/src/simd/runtime.rs
+
+/home/jarvis/Desktop/RUST/data_type/target/debug/deps/httparse-98b0e98ed7106133.d: /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.10.1/src/lib.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.10.1/src/iter.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.10.1/src/macros.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.10.1/src/simd/mod.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.10.1/src/simd/swar.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.10.1/src/simd/sse42.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.10.1/src/simd/avx2.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.10.1/src/simd/runtime.rs
+
+/home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.10.1/src/lib.rs:
+/home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.10.1/src/iter.rs:
+/home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.10.1/src/macros.rs:
+/home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.10.1/src/simd/mod.rs:
+/home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.10.1/src/simd/swar.rs:
+/home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.10.1/src/simd/sse42.rs:
+/home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.10.1/src/simd/avx2.rs:
+/home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.10.1/src/simd/runtime.rs:

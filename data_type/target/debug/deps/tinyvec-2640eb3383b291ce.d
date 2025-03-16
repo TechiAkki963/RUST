@@ -1,0 +1,11 @@
+/home/jarvis/Desktop/RUST/data_type/target/debug/deps/libtinyvec-2640eb3383b291ce.rmeta: /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.9.0/src/lib.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.9.0/src/array.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.9.0/src/array/generated_impl.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.9.0/src/arrayvec.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.9.0/src/arrayvec_drain.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.9.0/src/slicevec.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.9.0/src/tinyvec.rs
+
+/home/jarvis/Desktop/RUST/data_type/target/debug/deps/tinyvec-2640eb3383b291ce.d: /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.9.0/src/lib.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.9.0/src/array.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.9.0/src/array/generated_impl.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.9.0/src/arrayvec.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.9.0/src/arrayvec_drain.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.9.0/src/slicevec.rs /home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.9.0/src/tinyvec.rs
+
+/home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.9.0/src/lib.rs:
+/home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.9.0/src/array.rs:
+/home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.9.0/src/array/generated_impl.rs:
+/home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.9.0/src/arrayvec.rs:
+/home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.9.0/src/arrayvec_drain.rs:
+/home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.9.0/src/slicevec.rs:
+/home/jarvis/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.9.0/src/tinyvec.rs:
