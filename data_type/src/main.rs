@@ -164,12 +164,26 @@ fn main() {
     let purchased_ticket = true;
     let plane_on_time = true;
     let making_event = purchased_ticket && plane_on_time;
-    println!("It is {} that I will arrive as expected",making_event);
-    
+    println!("It is {} that I will arrive as expected", making_event);
 
     // OR || operator
     let user_has_paid_for_subscription = false;
-    let is_admin= true;
+    let is_admin = true;
     let user_can_see_premium_content = user_has_paid_for_subscription || is_admin;
-    println!("Can this user view our content? : {}",user_can_see_premium_content);
+    println!(
+        "Can this user view our content? : {}",
+        user_can_see_premium_content
+    );
+
+    // Char
+    let initial_char = 'B';
+    let emoji = '💋';
+    println!("{} {}", initial_char, emoji);
+    println!("{} {}", initial_char.is_alphabetic(), emoji.is_alphabetic());
+    println!("{} {}", initial_char.to_lowercase(), emoji.to_lowercase());
+    println!("{} {}", initial_char.to_uppercase(), emoji.to_uppercase());
+    println!("{} {}", initial_char.is_lowercase(), emoji.is_lowercase());
+    println!("{} {}", initial_char.is_lowercase(), emoji.is_lowercase());
+
+
 }
