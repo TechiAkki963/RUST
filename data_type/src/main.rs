@@ -186,4 +186,13 @@ fn main() {
     println!("{} {}", initial_char.is_lowercase(), emoji.is_lowercase());
 
 
+    // Array
+
+    let number:[i32;7] = [1, 12, 21, 27, 36, 45, 90];
+    let fruits = ["Apple", "Mango", "Banana"];
+    println!("Number: {}",number.len());
+    println!("List of Fruits: {}",fruits.len());
+    
+
+
 }
