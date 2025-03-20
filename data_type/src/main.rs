@@ -193,8 +193,24 @@ fn main() {
     println!("Number: {}",number.len());
     println!("List of Fruits: {}",fruits.len());
     
+    let season: [&str; 5] = ["Winter", "Autumn", "Summer","Rainy","Spring"];
+    println!("I hate {}",season[2]);
+
+    let first_season = season[0];
+    let third_season= season[2];
+    println!("The first season {} and the Third Season {} are the main season from the list",first_season, third_season);
+
+
+    // Mut Array
+    let mut veges =  ["carrot", "potato", "tomato"];
+    println!("Second Vege : {}",veges[1]);
+    veges[1]= "Spinach";
+    println!("Replaced to : {}",veges[1]);
 
     
+
+
+
 
 
 }
