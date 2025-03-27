@@ -208,6 +208,15 @@ fn main() {
     println!("Replaced to : {}",veges[1]);
 
     
+    // Display Trait
+    let games: [&str; 4] = ["Cricket", "Football", "Hockey", "Basketball"];
+    println!("{}", 5);
+    println!("{}",3.14);
+    println!("{}", true);
+    // println!("{}", games);
+    // help: the trait `std::fmt::Display` is not implemented for `[&str; 4]`
+
+    //
 
 
 
