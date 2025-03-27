@@ -222,8 +222,22 @@ fn main() {
     // Arrays, by default, do not implement Display.
     // The Debug trait, is used for developer output, and is very useful for viewing the contents of data structures.
     
+    // **Debug Trait** :?
+    println!("{:?}",games);
+    // ["Cricket", "Football", "Hockey", "Basketball"]
 
+    // Also can be written
+    println!("{games:?}");
+    // ["Cricket", "Football", "Hockey", "Basketball"]
 
+    // for pretty format also
+    println!("{games:#?}");
+    //   [
+    //     "Cricket",
+    //     "Football",
+    //     "Hockey",
+    //     "Basketball",
+    //    ]
 
 
 }
