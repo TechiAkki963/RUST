@@ -209,6 +209,7 @@ fn main() {
 
     
     // Display Trait
+    #[allow(unused_variables)]
     let games: [&str; 4] = ["Cricket", "Football", "Hockey", "Basketball"];
     println!("{}", 5);
     println!("{}",3.14);
@@ -216,8 +217,11 @@ fn main() {
     // println!("{}", games);
     // help: the trait `std::fmt::Display` is not implemented for `[&str; 4]`
 
-    //
-
+    //The Display trait is for user-friendly output.
+    // Basic types like integers, floats, and booleans implement Display.
+    // Arrays, by default, do not implement Display.
+    // The Debug trait, is used for developer output, and is very useful for viewing the contents of data structures.
+    
 
 
 
