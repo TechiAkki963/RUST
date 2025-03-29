@@ -1,3 +1,5 @@
+// use core::num;
+
 fn main() {
     let _small_integer: i8 = 32;
 
@@ -252,5 +254,37 @@ fn main() {
     dbg!(2 + 2);
     // [src/main.rs:252:5] 2 + 2 = 4
     
+
+    // Tuple
+
+    let employee = ("Molly", 32, 5.5, "Marketing");
+
+    let name = employee.0;
+    let age = employee.1;
+    let experience = employee.2;
+    let department =  employee.3;
+   
+
+    println!("Name: {name}, Age: {age}, Exp: {experience}yrs, Department: {department}");
+    // Name:Molly, Age:32, Exp:5.5, Department:Marketing
+
+    println!("{employee:#?}");    
+    // (
+    //     "Molly",
+    //     32,
+    //     "Marketing",
+    //     5.5,
+    // )
+
+    let student =("Alex", 10, "A*A*A*");
+    let(student_name, student_class, student_grade)=student;
+    println!("Name: {student_name}, Class: {student_class}, Grade: {student_grade}");
+    // Name: Alex, Class: 10, Grade: A*A*A*
+    println!("{student:#?}");
+    // (
+    //     "Alex",
+    //     10,
+    //     "A*A*A*",
+    // )
 
 }
