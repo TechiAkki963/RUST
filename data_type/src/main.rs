@@ -255,7 +255,7 @@ fn main() {
     // [src/main.rs:252:5] 2 + 2 = 4
     
 
-    // Tuple
+    // **Tuple
 
     let employee = ("Molly", 32, 5.5, "Marketing");
 
@@ -276,6 +276,8 @@ fn main() {
     //     5.5,
     // )
 
+
+    //Also can be written
     let student =("Alex", 10, "A*A*A*");
     let(student_name, student_class, student_grade)=student;
     println!("Name: {student_name}, Class: {student_class}, Grade: {student_grade}");
