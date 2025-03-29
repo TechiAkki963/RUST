@@ -289,4 +289,26 @@ fn main() {
     //     "A*A*A*",
     // )
 
+    // **Ranges and Range Iteration 
+
+    let count = 1..10;
+    for num in count {
+        println!("{num}");
+    }
+
+    let counts = 1..=10;
+    for num in counts {
+        println!("{num}");
+    }
+
+    let alphabet = 'b'..'f';
+    for letter in alphabet{
+        println!("{letter}");
+    }
+
+    let colors = ["Red","Yellow","Blue"];
+    for color in colors{
+        println!("{color} is my favorite color");
+    }
+
 }
