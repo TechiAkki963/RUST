@@ -187,34 +187,34 @@ fn main() {
     println!("{} {}", initial_char.is_lowercase(), emoji.is_lowercase());
     println!("{} {}", initial_char.is_lowercase(), emoji.is_lowercase());
 
-
     // Array
 
-    let number:[i32;7] = [1, 12, 21, 27, 36, 45, 90];
+    let number: [i32; 7] = [1, 12, 21, 27, 36, 45, 90];
     let fruits = ["Apple", "Mango", "Banana"];
-    println!("Number: {}",number.len());
-    println!("List of Fruits: {}",fruits.len());
-    
-    let season: [&str; 5] = ["Winter", "Autumn", "Summer","Rainy","Spring"];
-    println!("I hate {}",season[2]);
+    println!("Number: {}", number.len());
+    println!("List of Fruits: {}", fruits.len());
+
+    let season: [&str; 5] = ["Winter", "Autumn", "Summer", "Rainy", "Spring"];
+    println!("I hate {}", season[2]);
 
     let first_season = season[0];
-    let third_season= season[2];
-    println!("The first season {} and the Third Season {} are the main season from the list",first_season, third_season);
-
+    let third_season = season[2];
+    println!(
+        "The first season {} and the Third Season {} are the main season from the list",
+        first_season, third_season
+    );
 
     // Mut Array
-    let mut veges =  ["carrot", "potato", "tomato"];
-    println!("Second Vege : {}",veges[1]);
-    veges[1]= "Spinach";
-    println!("Replaced to : {}",veges[1]);
+    let mut veges = ["carrot", "potato", "tomato"];
+    println!("Second Vege : {}", veges[1]);
+    veges[1] = "Spinach";
+    println!("Replaced to : {}", veges[1]);
 
-    
     // Display Trait
     #[allow(unused_variables)]
     let games: [&str; 4] = ["Cricket", "Football", "Hockey", "Basketball"];
     println!("{}", 5);
-    println!("{}",3.14);
+    println!("{}", 3.14);
     println!("{}", true);
     // println!("{}", games);
     // help: the trait `std::fmt::Display` is not implemented for `[&str; 4]`
@@ -223,9 +223,9 @@ fn main() {
     // Basic types like integers, floats, and booleans implement Display.
     // Arrays, by default, do not implement Display.
     // The Debug trait, is used for developer output, and is very useful for viewing the contents of data structures.
-    
+
     // **Debug Trait** :?
-    println!("{:?}",games);
+    println!("{:?}", games);
     // ["Cricket", "Football", "Hockey", "Basketball"]
 
     // Also can be written
@@ -241,8 +241,6 @@ fn main() {
     //     "Basketball",
     //    ]
 
-    
-
     //**  The dbg! Macro
     dbg!(games);
     // [src/main.rs:245:5] games = [
@@ -253,7 +251,6 @@ fn main() {
     // ]
     dbg!(2 + 2);
     // [src/main.rs:252:5] 2 + 2 = 4
-    
 
     // **Tuple
 
@@ -262,13 +259,12 @@ fn main() {
     let name = employee.0;
     let age = employee.1;
     let experience = employee.2;
-    let department =  employee.3;
-   
+    let department = employee.3;
 
     println!("Name: {name}, Age: {age}, Exp: {experience}yrs, Department: {department}");
     // Name:Molly, Age:32, Exp:5.5, Department:Marketing
 
-    println!("{employee:#?}");    
+    println!("{employee:#?}");
     // (
     //     "Molly",
     //     32,
@@ -276,10 +272,9 @@ fn main() {
     //     5.5,
     // )
 
-
     //Also can be written
-    let student =("Alex", 10, "A*A*A*");
-    let(student_name, student_class, student_grade)=student;
+    let student = ("Alex", 10, "A*A*A*");
+    let (student_name, student_class, student_grade) = student;
     println!("Name: {student_name}, Class: {student_class}, Grade: {student_grade}");
     // Name: Alex, Class: 10, Grade: A*A*A*
     println!("{student:#?}");
@@ -289,7 +284,7 @@ fn main() {
     //     "A*A*A*",
     // )
 
-    // **Ranges and Range Iteration 
+    // **Ranges and Range Iteration
 
     let count = 1..10;
     for num in count {
@@ -302,13 +297,20 @@ fn main() {
     }
 
     let alphabet = 'b'..'f';
-    for letter in alphabet{
+    for letter in alphabet {
         println!("{letter}");
     }
 
-    let colors = ["Red","Yellow","Blue"];
-    for color in colors{
+    let colors = ["Red", "Yellow", "Blue"];
+    for color in colors {
         println!("{color} is my favorite color");
     }
 
+
+    // ** The Generic
+    let sequence:std::ops::Range<i8> = 1..10;
+    println!("{sequence:#?}");
+
+    let word:std::ops::Range<char>= 'c'..'g';
+    println!("{word:#?}");
 }
