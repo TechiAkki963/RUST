@@ -242,6 +242,15 @@ fn main() {
     
 
     //**  The dbg! Macro
-
+    dbg!(games);
+    // [src/main.rs:245:5] games = [
+    //     "Cricket",
+    //     "Football",
+    //     "Hockey",
+    //     "Basketball",
+    // ]
+    dbg!(2 + 2);
+    // [src/main.rs:252:5] 2 + 2 = 4
     
+
 }
