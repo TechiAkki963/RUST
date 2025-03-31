@@ -11,6 +11,12 @@ fn main() {
 
     let result = square(25);
     println!("The square of 25: {result}");
+
+    let result = rectangle(5, 3);
+    println!("Area of Rectangle: {result}ccm.");
+
+    let result: bool = is_even(15);
+    println!("The number is even: {result}");
 }
 
 fn make_cream(fruit: &str) {
@@ -32,4 +38,12 @@ fn serve_icecream() {
 // *Return Value
 fn square(number: i32) -> i32 {
     return number * number;
+}
+
+fn rectangle(width: u32, height: u32) -> u32 {
+    return width * height;
+}
+
+fn is_even(number: i32) -> bool {
+    return number % 2 == 0;
 }
