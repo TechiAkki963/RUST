@@ -1,3 +1,5 @@
+use std::result;
+
 fn main() {
     make_cream("Mango");
     make_cream("Chocolate");
@@ -17,6 +19,9 @@ fn main() {
 
     let result: bool = is_even(15);
     println!("The number is even: {result}");
+
+    let result: i32= cube(3);
+    println!("The cube : {result}");
 }
 
 fn make_cream(fruit: &str) {
@@ -47,3 +52,11 @@ fn rectangle(width: u32, height: u32) -> u32 {
 fn is_even(number: i32) -> bool {
     return number % 2 == 0;
 }
+
+
+// *Implicit 
+
+fn cube(n: i32) ->i32{
+    n*n*n
+}
+//Implicit return value - the last line in the scope of a function without ';'
