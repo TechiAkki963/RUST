@@ -8,7 +8,7 @@ fn main() {
     }
 
 
-    let season: &str = "spring";
+    let season: &str = " ";
 
     if season == "summer"{
         println!("It's Summer, Clouds are clear");
@@ -18,5 +18,8 @@ fn main() {
         println!("Oooooh its thundering")
     } else if season == "spring" {
         println!("W@@@@W! flower blooming!!!");
+    }
+    else{
+        println!("Suprisingly raining......");
     }
 }
