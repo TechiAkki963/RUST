@@ -60,7 +60,7 @@ fn main() {
     println!("{}", pi.round());
 
     // * float format specifier
-
+    
     println!("The current value of pi is {pi:.2}"); //3.14
 
     // * Casting type with "as" keyword
