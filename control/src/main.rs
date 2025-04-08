@@ -48,8 +48,37 @@ fn main() {
 
     // ** loops and break
 
-    let seconds = 10;
-    
+    let mut seconds = 10;
+
+    loop {
+        if seconds == 0 {
+            println!("BOOOOOOOOOM!!!");
+            break;
+        }
+
+        println!("{seconds} to have a blastoff...");
+        // seconds = seconds - 1;
+        seconds -= 1;
+    }
+
+    // **Loop and Continue keyword
+
+    let mut timer = 21;
+
+    loop {
+        if timer == 0 {
+            println!("Boom!!!");
+            break;
+        }
+
+        if timer % 2 == 0{
+            println!("{timer} is even number. Skipping 3 secs ....");
+            timer -= 3;
+        }
+
+        println!("{timer} seconds to have a blast");
+        timer -= 1;
+    }
 }
 
 fn even_or_odd(number: i32) {
