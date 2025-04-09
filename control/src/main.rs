@@ -24,7 +24,6 @@ fn main() {
     even_or_odd(20);
     even_or_odd(17);
 
-
     // *Match Statement
 
     let evaluation: bool = true;
@@ -35,16 +34,14 @@ fn main() {
     };
     println!("{value}");
 
-
     // *Match Statement multiple values
     let number: i32 = 8;
 
-    match number{
+    match number {
         value if value % 2 == 0 => println!("{value} is even number"),
         x if value % 2 != 0 => println!("{x} is odd number"),
-        _ => unreachable!(),  //   **Macro
+        _ => unreachable!(), //   **Macro
     }
-
 
     // ** loops and break
 
@@ -71,7 +68,7 @@ fn main() {
             break;
         }
 
-        if timer % 2 == 0{
+        if timer % 2 == 0 {
             println!("{timer} is even number. Skipping 3 secs ....");
             timer -= 3;
         }
@@ -79,10 +76,29 @@ fn main() {
         println!("{timer} seconds to have a blast");
         timer -= 1;
     }
+
+
+
+    // While 
+
+    let mut minute = 60;
+
+    while minute > 0{
+
+        if minute % 2 == 0 {
+            println!("{minute} secs ...Skipping 3 seconds (in while)");
+            minute -=3
+        }
+
+        println!("{minute} secs to go Boom (in While)");
+        minute -=1
+    }
+
+    println!("Boom!!! (In While)");
 }
 
 fn even_or_odd(number: i32) {
     let result: &str = if number % 2 == 0 { "even" } else { "odd" };
-    
+
     println!("The number is {result}");
 }
