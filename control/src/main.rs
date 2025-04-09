@@ -77,27 +77,23 @@ fn main() {
         timer -= 1;
     }
 
-
-
-    // While 
+    // While
 
     let mut minute = 60;
 
-    while minute > 0{
-
+    while minute > 0 {
         if minute % 2 == 0 {
             println!("{minute} secs ...Skipping 3 seconds (in while)");
-            minute -=3
+            minute -= 3
         }
 
         println!("{minute} secs to go Boom (in While)");
-        minute -=1
+        minute -= 1
     }
 
     println!("Boom!!! (In While)");
 
-
-    // ** Recurssion 
+    // ** Recurssion
     countdown(5);
 }
 
@@ -107,16 +103,13 @@ fn even_or_odd(number: i32) {
     println!("The number is {result}");
 }
 
-
-
 // ** Recursion
 // Recursion is when a function call itself
-fn countdown(secs: i32){
+fn countdown(secs: i32) {
     if secs == 0 {
         println!("{secs} Blastoff!!!")
-    }else{
+    } else {
         println!("{secs} seconds for Launch...");
         countdown(secs - 1);
     }
-    
 }
