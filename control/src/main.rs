@@ -95,10 +95,28 @@ fn main() {
     }
 
     println!("Boom!!! (In While)");
+
+
+    // ** Recurssion 
+    countdown(5);
 }
 
 fn even_or_odd(number: i32) {
     let result: &str = if number % 2 == 0 { "even" } else { "odd" };
 
     println!("The number is {result}");
+}
+
+
+
+// ** Recursion
+// Recursion is when a function call itself
+fn countdown(secs: i32){
+    if secs == 0 {
+        println!("{secs} Blastoff!!!")
+    }else{
+        println!("{secs} seconds for Launch...");
+        countdown(secs - 1);
+    }
+    
 }
